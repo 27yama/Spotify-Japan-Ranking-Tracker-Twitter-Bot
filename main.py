@@ -117,8 +117,8 @@ while mydate < end:
     first_link = (str(df['Link'].iloc[0]))[10:63]
     sixth_link = (str(df['Link'].iloc[5]))[10:63]
  
-##    status = api.update_status(first + '\n' + second + '\n' + third + '\n' + fourth + '\n' + fifth + '\n' + first_link)
-##    status2 = api.update_status(('@SpotifyRankJP' + ' ' + sixth + '\n' + seventh + '\n' + eighth + '\n' + nineth + '\n' + tenth + '\n' + sixth_link), status.id)
+    status = api.update_status(first + '\n' + second + '\n' + third + '\n' + fourth + '\n' + fifth + '\n' + first_link)
+    status2 = api.update_status(('@SpotifyRankJP' + ' ' + sixth + '\n' + seventh + '\n' + eighth + '\n' + nineth + '\n' + tenth + '\n' + sixth_link), status.id)
 
 
 
